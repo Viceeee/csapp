@@ -1,0 +1,633 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	cachelab-handout/tracegen.c	/^static int A[256][256];$/;"	v	file:
+ALIGN	malloclab-handout/mm.c	42;"	d	file:
+ALIGNMENT	malloclab-handout/config.h	58;"	d
+ALIGNMENT	malloclab-handout/mm.c	39;"	d	file:
+ALLOC	malloclab-handout/mdriver.c	/^    enum {ALLOC, FREE, REALLOC} type; \/* type of request *\/$/;"	e	enum:__anon2::__anon3	file:
+AVG_LIBC_THRUPUT	malloclab-handout/config.h	46;"	d
+Accept	proxylab-handout/csapp.c	/^int Accept(int s, struct sockaddr *addr, socklen_t *addrlen) $/;"	f
+Accept	proxylab-handout/tiny/csapp.c	/^int Accept(int s, struct sockaddr *addr, socklen_t *addrlen) $/;"	f
+Alarm	proxylab-handout/csapp.c	/^unsigned int Alarm(unsigned int seconds) {$/;"	f
+Alarm	proxylab-handout/tiny/csapp.c	/^unsigned int Alarm(unsigned int seconds) {$/;"	f
+B	cachelab-handout/tracegen.c	/^static int B[256][256];$/;"	v	file:
+BG	shlab-handout/tsh.c	25;"	d	file:
+BIAS	datalab-handout/fshow.c	10;"	d	file:
+Bind	proxylab-handout/csapp.c	/^void Bind(int sockfd, struct sockaddr *my_addr, int addrlen) $/;"	f
+Bind	proxylab-handout/tiny/csapp.c	/^void Bind(int sockfd, struct sockaddr *my_addr, int addrlen) $/;"	f
+CACHELAB_TOOLS_H	cachelab-handout/cachelab.h	6;"	d
+CACHE_BLOCK	malloclab-handout/fcyc.c	24;"	d	file:
+CACHE_BYTES	malloclab-handout/fcyc.c	23;"	d	file:
+CC	cachelab-handout/Makefile	/^CC = gcc$/;"	m
+CC	datalab-handout/Makefile	/^CC = gcc$/;"	m
+CC	malloclab-handout/Makefile	/^CC = gcc$/;"	m
+CC	proxylab-handout/Makefile	/^CC = gcc$/;"	m
+CC	proxylab-handout/tiny/Makefile	/^CC = gcc$/;"	m
+CC	proxylab-handout/tiny/cgi-bin/Makefile	/^CC = gcc$/;"	m
+CC	shlab-handout/Makefile	/^CC = gcc$/;"	m
+CFLAGS	cachelab-handout/Makefile	/^CFLAGS = -g -Wall -Werror -std=c99 -m64$/;"	m
+CFLAGS	datalab-handout/Makefile	/^CFLAGS = -O -Wall -m32$/;"	m
+CFLAGS	malloclab-handout/Makefile	/^CFLAGS = -Wall -O2 -m32$/;"	m
+CFLAGS	proxylab-handout/Makefile	/^CFLAGS = -g -Wall$/;"	m
+CFLAGS	proxylab-handout/tiny/Makefile	/^CFLAGS = -O2 -Wall -I .$/;"	m
+CFLAGS	proxylab-handout/tiny/cgi-bin/Makefile	/^CFLAGS = -O2 -Wall -I ..$/;"	m
+CFLAGS	shlab-handout/Makefile	/^CFLAGS = -Wall -O2$/;"	m
+CLEAR_CACHE	malloclab-handout/fcyc.c	22;"	d	file:
+COMPENSATE	malloclab-handout/fcyc.c	21;"	d	file:
+Calloc	proxylab-handout/csapp.c	/^void *Calloc(size_t nmemb, size_t size) $/;"	f
+Calloc	proxylab-handout/tiny/csapp.c	/^void *Calloc(size_t nmemb, size_t size) $/;"	f
+Close	proxylab-handout/csapp.c	/^void Close(int fd) $/;"	f
+Close	proxylab-handout/tiny/csapp.c	/^void Close(int fd) $/;"	f
+Closedir	proxylab-handout/csapp.c	/^int Closedir(DIR *dirp) $/;"	f
+Closedir	proxylab-handout/tiny/csapp.c	/^int Closedir(DIR *dirp) $/;"	f
+Connect	proxylab-handout/csapp.c	/^void Connect(int sockfd, struct sockaddr *serv_addr, int addrlen) $/;"	f
+Connect	proxylab-handout/tiny/csapp.c	/^void Connect(int sockfd, struct sockaddr *serv_addr, int addrlen) $/;"	f
+DEFAULT_TRACEFILES	malloclab-handout/config.h	24;"	d
+DEF_MODE	proxylab-handout/csapp.h	34;"	d
+DEF_MODE	proxylab-handout/tiny/csapp.h	34;"	d
+DEF_UMASK	proxylab-handout/csapp.h	35;"	d
+DEF_UMASK	proxylab-handout/tiny/csapp.h	35;"	d
+DRIVER	shlab-handout/Makefile	/^DRIVER = .\/sdriver.pl$/;"	m
+Driverhdrs	datalab-handout/Driverhdrs.pm	/^package Driverhdrs;$/;"	p
+Driverlib	datalab-handout/Driverlib.pm	/^package Driverlib;$/;"	p
+Dup2	proxylab-handout/csapp.c	/^int Dup2(int fd1, int fd2) $/;"	f
+Dup2	proxylab-handout/tiny/csapp.c	/^int Dup2(int fd1, int fd2) $/;"	f
+EPSILON	malloclab-handout/fcyc.c	20;"	d	file:
+EXP_MASK	datalab-handout/fshow.c	12;"	d	file:
+EXP_SIZE	datalab-handout/fshow.c	9;"	d	file:
+Execve	proxylab-handout/csapp.c	/^void Execve(const char *filename, char *const argv[], char *const envp[]) $/;"	f
+Execve	proxylab-handout/tiny/csapp.c	/^void Execve(const char *filename, char *const argv[], char *const envp[]) $/;"	f
+FG	shlab-handout/tsh.c	24;"	d	file:
+FILES	shlab-handout/Makefile	/^FILES = $(TSH) .\/myspin .\/mysplit .\/mystop .\/myint$/;"	m
+FLOAT_SIZE	datalab-handout/fshow.c	7;"	d	file:
+FRAC_MASK	datalab-handout/fshow.c	11;"	d	file:
+FRAC_SIZE	datalab-handout/fshow.c	8;"	d	file:
+FREE	malloclab-handout/mdriver.c	/^    enum {ALLOC, FREE, REALLOC} type; \/* type of request *\/$/;"	e	enum:__anon2::__anon3	file:
+Fclose	proxylab-handout/csapp.c	/^void Fclose(FILE *fp) $/;"	f
+Fclose	proxylab-handout/tiny/csapp.c	/^void Fclose(FILE *fp) $/;"	f
+Fdopen	proxylab-handout/csapp.c	/^FILE *Fdopen(int fd, const char *type) $/;"	f
+Fdopen	proxylab-handout/tiny/csapp.c	/^FILE *Fdopen(int fd, const char *type) $/;"	f
+Fgets	proxylab-handout/csapp.c	/^char *Fgets(char *ptr, int n, FILE *stream) $/;"	f
+Fgets	proxylab-handout/tiny/csapp.c	/^char *Fgets(char *ptr, int n, FILE *stream) $/;"	f
+Fopen	proxylab-handout/csapp.c	/^FILE *Fopen(const char *filename, const char *mode) $/;"	f
+Fopen	proxylab-handout/tiny/csapp.c	/^FILE *Fopen(const char *filename, const char *mode) $/;"	f
+Fork	proxylab-handout/csapp.c	/^pid_t Fork(void) $/;"	f
+Fork	proxylab-handout/tiny/csapp.c	/^pid_t Fork(void) $/;"	f
+Fputs	proxylab-handout/csapp.c	/^void Fputs(const char *ptr, FILE *stream) $/;"	f
+Fputs	proxylab-handout/tiny/csapp.c	/^void Fputs(const char *ptr, FILE *stream) $/;"	f
+Fread	proxylab-handout/csapp.c	/^size_t Fread(void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f
+Fread	proxylab-handout/tiny/csapp.c	/^size_t Fread(void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f
+Free	proxylab-handout/csapp.c	/^void Free(void *ptr) $/;"	f
+Free	proxylab-handout/tiny/csapp.c	/^void Free(void *ptr) $/;"	f
+Freeaddrinfo	proxylab-handout/csapp.c	/^void Freeaddrinfo(struct addrinfo *res)$/;"	f
+Freeaddrinfo	proxylab-handout/tiny/csapp.c	/^void Freeaddrinfo(struct addrinfo *res)$/;"	f
+Fstat	proxylab-handout/csapp.c	/^void Fstat(int fd, struct stat *buf) $/;"	f
+Fstat	proxylab-handout/tiny/csapp.c	/^void Fstat(int fd, struct stat *buf) $/;"	f
+Fwrite	proxylab-handout/csapp.c	/^void Fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f
+Fwrite	proxylab-handout/tiny/csapp.c	/^void Fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f
+Getaddrinfo	proxylab-handout/csapp.c	/^void Getaddrinfo(const char *node, const char *service, $/;"	f
+Getaddrinfo	proxylab-handout/tiny/csapp.c	/^void Getaddrinfo(const char *node, const char *service, $/;"	f
+Gethostbyaddr	proxylab-handout/csapp.c	/^struct hostent *Gethostbyaddr(const char *addr, int len, int type) $/;"	f
+Gethostbyaddr	proxylab-handout/tiny/csapp.c	/^struct hostent *Gethostbyaddr(const char *addr, int len, int type) $/;"	f
+Gethostbyname	proxylab-handout/csapp.c	/^struct hostent *Gethostbyname(const char *name) $/;"	f
+Gethostbyname	proxylab-handout/tiny/csapp.c	/^struct hostent *Gethostbyname(const char *name) $/;"	f
+Getnameinfo	proxylab-handout/csapp.c	/^void Getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host, $/;"	f
+Getnameinfo	proxylab-handout/tiny/csapp.c	/^void Getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host, $/;"	f
+Getpgrp	proxylab-handout/csapp.c	/^pid_t Getpgrp(void) {$/;"	f
+Getpgrp	proxylab-handout/tiny/csapp.c	/^pid_t Getpgrp(void) {$/;"	f
+HANDINDIR	malloclab-handout/Makefile	/^HANDINDIR = \/afs\/cs.cmu.edu\/academic\/class\/15213-f01\/malloclab\/handin$/;"	m
+HANDINDIR	shlab-handout/Makefile	/^HANDINDIR = \/afs\/cs\/academic\/class\/15213-f02\/L5\/handin$/;"	m
+HANDINDIR-PARTA	archlab-handout/Makefile	/^HANDINDIR-PARTA = \/afs\/cs\/academic\/class\/15349-s02\/archlab\/handin-parta$/;"	m
+HANDINDIR-PARTB	archlab-handout/Makefile	/^HANDINDIR-PARTB = \/afs\/cs\/academic\/class\/15349-s02\/archlab\/handin-partb$/;"	m
+HANDINDIR-PARTC	archlab-handout/Makefile	/^HANDINDIR-PARTC = \/afs\/cs\/academic\/class\/15349-s02\/archlab\/handin-partc$/;"	m
+HDRLINES	malloclab-handout/mdriver.c	30;"	d	file:
+IS_ALIGNED	malloclab-handout/mdriver.c	34;"	d	file:
+Inet_ntop	proxylab-handout/csapp.c	/^void Inet_ntop(int af, const void *src, char *dst, socklen_t size)$/;"	f
+Inet_ntop	proxylab-handout/tiny/csapp.c	/^void Inet_ntop(int af, const void *src, char *dst, socklen_t size)$/;"	f
+Inet_pton	proxylab-handout/csapp.c	/^void Inet_pton(int af, const char *src, void *dst) $/;"	f
+Inet_pton	proxylab-handout/tiny/csapp.c	/^void Inet_pton(int af, const char *src, void *dst) $/;"	f
+K	malloclab-handout/fcyc.c	18;"	d	file:
+KEEP_SAMPLES	malloclab-handout/fcyc.c	41;"	d	file:
+KEEP_VALS	malloclab-handout/fcyc.c	40;"	d	file:
+Kill	proxylab-handout/csapp.c	/^void Kill(pid_t pid, int signum) $/;"	f
+Kill	proxylab-handout/tiny/csapp.c	/^void Kill(pid_t pid, int signum) $/;"	f
+LDFLAGS	proxylab-handout/Makefile	/^LDFLAGS = -lpthread$/;"	m
+LIB	proxylab-handout/tiny/Makefile	/^LIB = -lpthread$/;"	m
+LIBS	datalab-handout/Makefile	/^LIBS = -lm$/;"	m
+LINENUM	malloclab-handout/mdriver.c	31;"	d	file:
+LISTENQ	proxylab-handout/csapp.h	61;"	d
+LISTENQ	proxylab-handout/tiny/csapp.h	61;"	d
+Listen	proxylab-handout/csapp.c	/^void Listen(int s, int backlog) $/;"	f
+Listen	proxylab-handout/tiny/csapp.c	/^void Listen(int s, int backlog) $/;"	f
+Lseek	proxylab-handout/csapp.c	/^off_t Lseek(int fildes, off_t offset, int whence) $/;"	f
+Lseek	proxylab-handout/tiny/csapp.c	/^off_t Lseek(int fildes, off_t offset, int whence) $/;"	f
+M	cachelab-handout/test-trans.c	/^static int M = 0;$/;"	v	file:
+M	cachelab-handout/tracegen.c	/^static int M;$/;"	v	file:
+MARKER_END	cachelab-handout/tracegen.c	/^volatile char MARKER_START, MARKER_END;$/;"	v
+MARKER_START	cachelab-handout/tracegen.c	/^volatile char MARKER_START, MARKER_END;$/;"	v
+MAXARGS	shlab-handout/tsh.c	18;"	d	file:
+MAXBUF	proxylab-handout/csapp.h	60;"	d
+MAXBUF	proxylab-handout/tiny/csapp.h	60;"	d
+MAXJID	shlab-handout/tsh.c	20;"	d	file:
+MAXJOBS	shlab-handout/tsh.c	19;"	d	file:
+MAXLINE	malloclab-handout/mdriver.c	29;"	d	file:
+MAXLINE	proxylab-handout/csapp.h	59;"	d
+MAXLINE	proxylab-handout/tiny/csapp.h	59;"	d
+MAXLINE	shlab-handout/tsh.c	17;"	d	file:
+MAXN	cachelab-handout/test-trans.c	19;"	d	file:
+MAXSAMPLES	malloclab-handout/fcyc.c	19;"	d	file:
+MAX_CACHE_SIZE	proxylab-handout/proxy.c	4;"	d	file:
+MAX_ETIME	malloclab-handout/ftimer.c	61;"	d	file:
+MAX_HEAP	malloclab-handout/config.h	63;"	d
+MAX_OBJECT_SIZE	proxylab-handout/proxy.c	5;"	d	file:
+MAX_TEST_VALS	datalab-handout/btest.c	47;"	d	file:
+MAX_TRANS_FUNCS	cachelab-handout/cachelab.h	8;"	d
+Malloc	proxylab-handout/csapp.c	/^void *Malloc(size_t size) $/;"	f
+Malloc	proxylab-handout/tiny/csapp.c	/^void *Malloc(size_t size) $/;"	f
+Mhz	malloclab-handout/fsecs.c	/^static double Mhz;  \/* estimated CPU clock frequency *\/$/;"	v	file:
+Mmap	proxylab-handout/csapp.c	/^void *Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset) $/;"	f
+Mmap	proxylab-handout/tiny/csapp.c	/^void *Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset) $/;"	f
+Munmap	proxylab-handout/csapp.c	/^void Munmap(void *start, size_t length) $/;"	f
+Munmap	proxylab-handout/tiny/csapp.c	/^void Munmap(void *start, size_t length) $/;"	f
+N	cachelab-handout/test-trans.c	/^static int N = 0;$/;"	v	file:
+N	cachelab-handout/tracegen.c	/^static int N;$/;"	v	file:
+NEVENT	malloclab-handout/clock.c	208;"	d	file:
+OBJS	malloclab-handout/Makefile	/^OBJS = mdriver.o mm.o memlib.o fsecs.o fcyc.o clock.o ftimer.o$/;"	m
+Open	proxylab-handout/csapp.c	/^int Open(const char *pathname, int flags, mode_t mode) $/;"	f
+Open	proxylab-handout/tiny/csapp.c	/^int Open(const char *pathname, int flags, mode_t mode) $/;"	f
+Open_clientfd	proxylab-handout/csapp.c	/^int Open_clientfd(char *hostname, char *port) $/;"	f
+Open_clientfd	proxylab-handout/tiny/csapp.c	/^int Open_clientfd(char *hostname, char *port) $/;"	f
+Open_listenfd	proxylab-handout/csapp.c	/^int Open_listenfd(char *port) $/;"	f
+Open_listenfd	proxylab-handout/tiny/csapp.c	/^int Open_listenfd(char *port) $/;"	f
+Opendir	proxylab-handout/csapp.c	/^DIR *Opendir(const char *name) $/;"	f
+Opendir	proxylab-handout/tiny/csapp.c	/^DIR *Opendir(const char *name) $/;"	f
+P	proxylab-handout/csapp.c	/^void P(sem_t *sem) $/;"	f
+P	proxylab-handout/tiny/csapp.c	/^void P(sem_t *sem) $/;"	f
+Pause	proxylab-handout/csapp.c	/^void Pause() $/;"	f
+Pause	proxylab-handout/tiny/csapp.c	/^void Pause() $/;"	f
+Pthread_cancel	proxylab-handout/csapp.c	/^void Pthread_cancel(pthread_t tid) {$/;"	f
+Pthread_cancel	proxylab-handout/tiny/csapp.c	/^void Pthread_cancel(pthread_t tid) {$/;"	f
+Pthread_create	proxylab-handout/csapp.c	/^void Pthread_create(pthread_t *tidp, pthread_attr_t *attrp, $/;"	f
+Pthread_create	proxylab-handout/tiny/csapp.c	/^void Pthread_create(pthread_t *tidp, pthread_attr_t *attrp, $/;"	f
+Pthread_detach	proxylab-handout/csapp.c	/^void Pthread_detach(pthread_t tid) {$/;"	f
+Pthread_detach	proxylab-handout/tiny/csapp.c	/^void Pthread_detach(pthread_t tid) {$/;"	f
+Pthread_exit	proxylab-handout/csapp.c	/^void Pthread_exit(void *retval) {$/;"	f
+Pthread_exit	proxylab-handout/tiny/csapp.c	/^void Pthread_exit(void *retval) {$/;"	f
+Pthread_join	proxylab-handout/csapp.c	/^void Pthread_join(pthread_t tid, void **thread_return) {$/;"	f
+Pthread_join	proxylab-handout/tiny/csapp.c	/^void Pthread_join(pthread_t tid, void **thread_return) {$/;"	f
+Pthread_once	proxylab-handout/csapp.c	/^void Pthread_once(pthread_once_t *once_control, void (*init_function)()) {$/;"	f
+Pthread_once	proxylab-handout/tiny/csapp.c	/^void Pthread_once(pthread_once_t *once_control, void (*init_function)()) {$/;"	f
+Pthread_self	proxylab-handout/csapp.c	/^pthread_t Pthread_self(void) {$/;"	f
+Pthread_self	proxylab-handout/tiny/csapp.c	/^pthread_t Pthread_self(void) {$/;"	f
+REALLOC	malloclab-handout/mdriver.c	/^    enum {ALLOC, FREE, REALLOC} type; \/* type of request *\/$/;"	e	enum:__anon2::__anon3	file:
+RECORDTHRESH	malloclab-handout/clock.c	210;"	d	file:
+RIO_BUFSIZE	proxylab-handout/csapp.h	45;"	d
+RIO_BUFSIZE	proxylab-handout/tiny/csapp.h	45;"	d
+Read	proxylab-handout/csapp.c	/^ssize_t Read(int fd, void *buf, size_t count) $/;"	f
+Read	proxylab-handout/tiny/csapp.c	/^ssize_t Read(int fd, void *buf, size_t count) $/;"	f
+Readdir	proxylab-handout/csapp.c	/^struct dirent *Readdir(DIR *dirp)$/;"	f
+Readdir	proxylab-handout/tiny/csapp.c	/^struct dirent *Readdir(DIR *dirp)$/;"	f
+Realloc	proxylab-handout/csapp.c	/^void *Realloc(void *ptr, size_t size) $/;"	f
+Realloc	proxylab-handout/tiny/csapp.c	/^void *Realloc(void *ptr, size_t size) $/;"	f
+Rio_readinitb	proxylab-handout/csapp.c	/^void Rio_readinitb(rio_t *rp, int fd)$/;"	f
+Rio_readinitb	proxylab-handout/tiny/csapp.c	/^void Rio_readinitb(rio_t *rp, int fd)$/;"	f
+Rio_readlineb	proxylab-handout/csapp.c	/^ssize_t Rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f
+Rio_readlineb	proxylab-handout/tiny/csapp.c	/^ssize_t Rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f
+Rio_readn	proxylab-handout/csapp.c	/^ssize_t Rio_readn(int fd, void *ptr, size_t nbytes) $/;"	f
+Rio_readn	proxylab-handout/tiny/csapp.c	/^ssize_t Rio_readn(int fd, void *ptr, size_t nbytes) $/;"	f
+Rio_readnb	proxylab-handout/csapp.c	/^ssize_t Rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f
+Rio_readnb	proxylab-handout/tiny/csapp.c	/^ssize_t Rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f
+Rio_writen	proxylab-handout/csapp.c	/^void Rio_writen(int fd, void *usrbuf, size_t n) $/;"	f
+Rio_writen	proxylab-handout/tiny/csapp.c	/^void Rio_writen(int fd, void *usrbuf, size_t n) $/;"	f
+SA	proxylab-handout/csapp.h	/^typedef struct sockaddr SA;$/;"	t	typeref:struct:sockaddr
+SA	proxylab-handout/tiny/csapp.h	/^typedef struct sockaddr SA;$/;"	t	typeref:struct:sockaddr
+SIZE_T_SIZE	malloclab-handout/mm.c	45;"	d	file:
+ST	shlab-handout/tsh.c	26;"	d	file:
+SUBMIT_DESCRIPTION	cachelab-handout/test-trans.c	23;"	d	file:
+Select	proxylab-handout/csapp.c	/^int Select(int  n, fd_set *readfds, fd_set *writefds,$/;"	f
+Select	proxylab-handout/tiny/csapp.c	/^int Select(int  n, fd_set *readfds, fd_set *writefds,$/;"	f
+Sem_init	proxylab-handout/csapp.c	/^void Sem_init(sem_t *sem, int pshared, unsigned int value) $/;"	f
+Sem_init	proxylab-handout/tiny/csapp.c	/^void Sem_init(sem_t *sem, int pshared, unsigned int value) $/;"	f
+Setpgid	proxylab-handout/csapp.c	/^void Setpgid(pid_t pid, pid_t pgid) {$/;"	f
+Setpgid	proxylab-handout/tiny/csapp.c	/^void Setpgid(pid_t pid, pid_t pgid) {$/;"	f
+Setsockopt	proxylab-handout/csapp.c	/^void Setsockopt(int s, int level, int optname, const void *optval, int optlen) $/;"	f
+Setsockopt	proxylab-handout/tiny/csapp.c	/^void Setsockopt(int s, int level, int optname, const void *optval, int optlen) $/;"	f
+Sigaddset	proxylab-handout/csapp.c	/^void Sigaddset(sigset_t *set, int signum)$/;"	f
+Sigaddset	proxylab-handout/tiny/csapp.c	/^void Sigaddset(sigset_t *set, int signum)$/;"	f
+Sigdelset	proxylab-handout/csapp.c	/^void Sigdelset(sigset_t *set, int signum)$/;"	f
+Sigdelset	proxylab-handout/tiny/csapp.c	/^void Sigdelset(sigset_t *set, int signum)$/;"	f
+Sigemptyset	proxylab-handout/csapp.c	/^void Sigemptyset(sigset_t *set)$/;"	f
+Sigemptyset	proxylab-handout/tiny/csapp.c	/^void Sigemptyset(sigset_t *set)$/;"	f
+Sigfillset	proxylab-handout/csapp.c	/^void Sigfillset(sigset_t *set)$/;"	f
+Sigfillset	proxylab-handout/tiny/csapp.c	/^void Sigfillset(sigset_t *set)$/;"	f
+Sigismember	proxylab-handout/csapp.c	/^int Sigismember(const sigset_t *set, int signum)$/;"	f
+Sigismember	proxylab-handout/tiny/csapp.c	/^int Sigismember(const sigset_t *set, int signum)$/;"	f
+Signal	datalab-handout/btest.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+Signal	proxylab-handout/csapp.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+Signal	proxylab-handout/tiny/csapp.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+Signal	shlab-handout/tsh.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+Sigprocmask	proxylab-handout/csapp.c	/^void Sigprocmask(int how, const sigset_t *set, sigset_t *oldset)$/;"	f
+Sigprocmask	proxylab-handout/tiny/csapp.c	/^void Sigprocmask(int how, const sigset_t *set, sigset_t *oldset)$/;"	f
+Sigsuspend	proxylab-handout/csapp.c	/^int Sigsuspend(const sigset_t *set)$/;"	f
+Sigsuspend	proxylab-handout/tiny/csapp.c	/^int Sigsuspend(const sigset_t *set)$/;"	f
+Sio_error	proxylab-handout/csapp.c	/^void Sio_error(char s[])$/;"	f
+Sio_error	proxylab-handout/tiny/csapp.c	/^void Sio_error(char s[])$/;"	f
+Sio_putl	proxylab-handout/csapp.c	/^ssize_t Sio_putl(long v)$/;"	f
+Sio_putl	proxylab-handout/tiny/csapp.c	/^ssize_t Sio_putl(long v)$/;"	f
+Sio_puts	proxylab-handout/csapp.c	/^ssize_t Sio_puts(char s[])$/;"	f
+Sio_puts	proxylab-handout/tiny/csapp.c	/^ssize_t Sio_puts(char s[])$/;"	f
+Sleep	proxylab-handout/csapp.c	/^unsigned int Sleep(unsigned int secs) $/;"	f
+Sleep	proxylab-handout/tiny/csapp.c	/^unsigned int Sleep(unsigned int secs) $/;"	f
+Socket	proxylab-handout/csapp.c	/^int Socket(int domain, int type, int protocol) $/;"	f
+Socket	proxylab-handout/tiny/csapp.c	/^int Socket(int domain, int type, int protocol) $/;"	f
+Stat	proxylab-handout/csapp.c	/^void Stat(const char *filename, struct stat *buf) $/;"	f
+Stat	proxylab-handout/tiny/csapp.c	/^void Stat(const char *filename, struct stat *buf) $/;"	f
+TEAM	archlab-handout/Makefile	/^TEAM = bovik$/;"	m
+TEAM	malloclab-handout/Makefile	/^TEAM = bovik$/;"	m
+TEAM	shlab-handout/Makefile	/^TEAM = NOBODY$/;"	m
+TEST_RANGE	datalab-handout/btest.c	42;"	d	file:
+THRESHOLD	malloclab-handout/clock.c	209;"	d	file:
+TIMEOUT_LIMIT	datalab-handout/btest.c	35;"	d	file:
+TMax	datalab-handout/decl.c	6;"	d	file:
+TMin	datalab-handout/decl.c	5;"	d	file:
+TRACEDIR	malloclab-handout/config.h	15;"	d
+TSH	shlab-handout/Makefile	/^TSH = .\/tsh$/;"	m
+TSHARGS	shlab-handout/Makefile	/^TSHARGS = "-p"$/;"	m
+TSHREF	shlab-handout/Makefile	/^TSHREF = .\/tshref$/;"	m
+UNDEF	shlab-handout/tsh.c	23;"	d	file:
+USE_FCYC	malloclab-handout/config.h	68;"	d
+USE_GETTOD	malloclab-handout/config.h	70;"	d
+USE_ITIMER	malloclab-handout/config.h	69;"	d
+UTIL_WEIGHT	malloclab-handout/config.h	53;"	d
+V	proxylab-handout/csapp.c	/^void V(sem_t *sem) $/;"	f
+V	proxylab-handout/tiny/csapp.c	/^void V(sem_t *sem) $/;"	f
+VERSION	archlab-handout/Makefile	/^VERSION = 1$/;"	m
+VERSION	malloclab-handout/Makefile	/^VERSION = 1$/;"	m
+VERSION	shlab-handout/Makefile	/^VERSION = 1$/;"	m
+Wait	proxylab-handout/csapp.c	/^pid_t Wait(int *status) $/;"	f
+Wait	proxylab-handout/tiny/csapp.c	/^pid_t Wait(int *status) $/;"	f
+Waitpid	proxylab-handout/csapp.c	/^pid_t Waitpid(pid_t pid, int *iptr, int options) $/;"	f
+Waitpid	proxylab-handout/tiny/csapp.c	/^pid_t Waitpid(pid_t pid, int *iptr, int options) $/;"	f
+Write	proxylab-handout/csapp.c	/^ssize_t Write(int fd, const void *buf, size_t count) $/;"	f
+Write	proxylab-handout/tiny/csapp.c	/^ssize_t Write(int fd, const void *buf, size_t count) $/;"	f
+__CONFIG_H_	malloclab-handout/config.h	2;"	d
+__CSAPP_H__	proxylab-handout/csapp.h	6;"	d
+__CSAPP_H__	proxylab-handout/tiny/csapp.h	6;"	d
+access_counter	malloclab-handout/clock.c	/^void access_counter(unsigned *hi, unsigned *lo)$/;"	f
+add_range	malloclab-handout/mdriver.c	/^static int add_range(range_t **ranges, char *lo, int size, $/;"	f	file:
+add_sample	malloclab-handout/fcyc.c	/^static void add_sample(double val)$/;"	f	file:
+addjob	shlab-handout/tsh.c	/^int addjob(struct job_t *jobs, pid_t pid, int state, char *cmdline) $/;"	f
+allOddBits	datalab-handout/bits.c	/^int allOddBits(int x) {$/;"	f
+app_error	malloclab-handout/mdriver.c	/^void app_error(char *msg) $/;"	f
+app_error	proxylab-handout/csapp.c	/^void app_error(char *msg) \/* Application error *\/$/;"	f
+app_error	proxylab-handout/tiny/csapp.c	/^void app_error(char *msg) \/* Application error *\/$/;"	f
+app_error	shlab-handout/tsh.c	/^void app_error(char *msg)$/;"	f
+arg_ranges	datalab-handout/btest.h	/^    int arg_ranges[3][2];   \/* Argument ranges. Always defined for 3 args, even if *\/$/;"	m	struct:__anon7
+args	datalab-handout/btest.h	/^    int args;               \/* Number of function arguments *\/$/;"	m	struct:__anon7
+argval	datalab-handout/btest.c	/^static unsigned argval[3] = {0,0,0};$/;"	v	file:
+bitXor	datalab-handout/bits.c	/^int bitXor(int x, int y) {$/;"	f
+block_sizes	malloclab-handout/mdriver.c	/^    size_t *block_sizes; \/* ... and a corresponding array of payload sizes *\/$/;"	m	struct:__anon4	file:
+blocks	malloclab-handout/mdriver.c	/^    char **blocks;       \/* array of ptrs returned by malloc\/realloc... *\/$/;"	m	struct:__anon4	file:
+builtin_cmd	shlab-handout/tsh.c	/^int builtin_cmd(char **argv) $/;"	f
+cache_block	malloclab-handout/fcyc.c	/^static int cache_block = CACHE_BLOCK;$/;"	v	file:
+cache_buf	malloclab-handout/fcyc.c	/^static int *cache_buf = NULL;$/;"	v	file:
+cache_bytes	malloclab-handout/fcyc.c	/^static int cache_bytes = CACHE_BYTES;$/;"	v	file:
+callibrate	malloclab-handout/clock.c	/^static void callibrate(int verbose)$/;"	f	file:
+check_nickname	datalab-handout/driver.pl	/^sub check_nickname {$/;"	s
+clean	datalab-handout/driver.pl	/^sub clean {$/;"	s
+clear	malloclab-handout/fcyc.c	/^static void clear()$/;"	f	file:
+clear_cache	malloclab-handout/fcyc.c	/^static int clear_cache = CLEAR_CACHE;$/;"	v	file:
+clear_dirs	proxylab-handout/driver.sh	/^function clear_dirs {$/;"	f
+clear_ranges	malloclab-handout/mdriver.c	/^static void clear_ranges(range_t **ranges)$/;"	f	file:
+clearjob	shlab-handout/tsh.c	/^void clearjob(struct job_t *job) {$/;"	f
+clienterror	proxylab-handout/tiny/tiny.c	/^void clienterror(int fd, char *cause, char *errnum, $/;"	f
+cmdline	shlab-handout/tsh.c	/^    char cmdline[MAXLINE];  \/* command line *\/$/;"	m	struct:job_t	file:
+compensate	malloclab-handout/fcyc.c	/^static int compensate = COMPENSATE;$/;"	v	file:
+computeMissScore	cachelab-handout/driver.py	/^def computeMissScore(miss, lower, upper, full_score):$/;"	f
+conditional	datalab-handout/bits.c	/^int conditional(int x, int y, int z) {$/;"	f
+correct	cachelab-handout/cachelab.h	/^  char correct;$/;"	m	struct:trans_func
+correct	cachelab-handout/test-trans.c	/^    int correct;$/;"	m	struct:results	file:
+correctTrans	cachelab-handout/cachelab.c	/^void correctTrans(int M, int N, int A[N][M], int B[M][N])$/;"	f
+counter	malloclab-handout/clock.c	/^static unsigned int (*counter)(void)= (void *)counterRoutine;$/;"	v	file:
+counterRoutine	malloclab-handout/clock.c	/^static unsigned int counterRoutine[] =$/;"	v	file:
+cyc_hi	malloclab-handout/clock.c	/^static unsigned cyc_hi = 0;$/;"	v	file:
+cyc_lo	malloclab-handout/clock.c	/^static unsigned cyc_lo = 0;$/;"	v	file:
+cyc_per_tick	malloclab-handout/clock.c	/^static double cyc_per_tick = 0.0;$/;"	v	file:
+default_tracefiles	malloclab-handout/mdriver.c	/^static char *default_tracefiles[] = {  $/;"	v	file:
+deletejob	shlab-handout/tsh.c	/^int deletejob(struct job_t *jobs, pid_t pid) $/;"	f
+description	cachelab-handout/cachelab.h	/^  char* description;$/;"	m	struct:trans_func
+dns_error	proxylab-handout/csapp.c	/^void dns_error(char *msg) \/* Obsolete gethostbyname error *\/$/;"	f
+dns_error	proxylab-handout/tiny/csapp.c	/^void dns_error(char *msg) \/* Obsolete gethostbyname error *\/$/;"	f
+do_bgfg	shlab-handout/tsh.c	/^void do_bgfg(char **argv) $/;"	f
+doit	proxylab-handout/tiny/tiny.c	/^void doit(int fd) $/;"	f
+download_noproxy	proxylab-handout/driver.sh	/^function download_noproxy {$/;"	f
+download_proxy	proxylab-handout/driver.sh	/^function download_proxy {$/;"	f
+driver_post	datalab-handout/Driverlib.pm	/^sub driver_post ($$) {$/;"	s
+envbuf	datalab-handout/btest.c	/^sigjmp_buf envbuf;$/;"	v
+epsilon	malloclab-handout/fcyc.c	/^static double epsilon = EPSILON;$/;"	v	file:
+errors	malloclab-handout/mdriver.c	/^static int errors = 0;  \/* number of errs found when running student malloc *\/$/;"	v	file:
+eval	shlab-handout/tsh.c	/^void eval(char *cmdline) $/;"	f
+eval_libc_speed	malloclab-handout/mdriver.c	/^static void eval_libc_speed(void *ptr)$/;"	f	file:
+eval_libc_valid	malloclab-handout/mdriver.c	/^static int eval_libc_valid(trace_t *trace, int tracenum)$/;"	f	file:
+eval_mm_speed	malloclab-handout/mdriver.c	/^static void eval_mm_speed(void *ptr)$/;"	f	file:
+eval_mm_util	malloclab-handout/mdriver.c	/^static double eval_mm_util(trace_t *trace, int tracenum, range_t **ranges)$/;"	f	file:
+eval_mm_valid	malloclab-handout/mdriver.c	/^static int eval_mm_valid(trace_t *trace, int tracenum, range_t **ranges) $/;"	f	file:
+eval_perf	cachelab-handout/test-trans.c	/^void eval_perf(unsigned int s, unsigned int E, unsigned int b)$/;"	f
+f2u	datalab-handout/fshow.c	/^unsigned f2u(float f)$/;"	f
+f2u	datalab-handout/tests.c	/^unsigned f2u(float f) {$/;"	f
+fcyc	malloclab-handout/fcyc.c	/^double fcyc(test_funct f, void *argp)$/;"	f
+fgpid	shlab-handout/tsh.c	/^pid_t fgpid(struct job_t *jobs) {$/;"	f
+first_p	malloclab-handout/ftimer.c	/^static struct itimerval first_p; \/* prof time*\/$/;"	v	typeref:struct:itimerval	file:
+first_r	malloclab-handout/ftimer.c	/^static struct itimerval first_r; \/* real time *\/$/;"	v	typeref:struct:itimerval	file:
+first_u	malloclab-handout/ftimer.c	/^static struct itimerval first_u; \/* user time *\/$/;"	v	typeref:struct:itimerval	file:
+floatFloat2Int	datalab-handout/bits.c	/^int floatFloat2Int(unsigned uf) {$/;"	f
+floatPower2	datalab-handout/bits.c	/^unsigned floatPower2(int x) {$/;"	f
+floatScale2	datalab-handout/bits.c	/^unsigned floatScale2(unsigned uf) {$/;"	f
+free_port	proxylab-handout/driver.sh	/^function free_port {$/;"	f
+free_trace	malloclab-handout/mdriver.c	/^void free_trace(trace_t *trace)$/;"	f
+fsecs	malloclab-handout/fsecs.c	/^double fsecs(fsecs_test_funct f, void *argp) $/;"	f
+fsecs_test_funct	malloclab-handout/fsecs.h	/^typedef void (*fsecs_test_funct)(void *);$/;"	t
+ftimer_gettod	malloclab-handout/ftimer.c	/^double ftimer_gettod(ftimer_test_funct f, void *argp, int n)$/;"	f
+ftimer_itimer	malloclab-handout/ftimer.c	/^double ftimer_itimer(ftimer_test_funct f, void *argp, int n)$/;"	f
+ftimer_test_funct	malloclab-handout/ftimer.h	/^typedef void (*ftimer_test_funct)(void *); $/;"	t
+func_counter	cachelab-handout/cachelab.c	/^int func_counter = 0; $/;"	v
+func_list	cachelab-handout/cachelab.c	/^trans_func_t func_list[MAX_TRANS_FUNCS];$/;"	v
+func_ptr	cachelab-handout/cachelab.h	/^  void (*func_ptr)(int M,int N,int[N][M],int[M][N]);$/;"	m	struct:trans_func
+funcid	cachelab-handout/test-trans.c	/^    int funcid;$/;"	m	struct:results	file:
+funct1_t	datalab-handout/btest.h	/^typedef int (*funct1_t)(int);$/;"	t
+funct2_t	datalab-handout/btest.h	/^typedef int (*funct2_t)(int, int); $/;"	t
+funct3_t	datalab-handout/btest.h	/^typedef int (*funct3_t)(int, int, int); $/;"	t
+funct_t	datalab-handout/btest.h	/^typedef int (*funct_t) (void);$/;"	t
+gai_error	proxylab-handout/csapp.c	/^void gai_error(int code, char *msg) \/* Getaddrinfo-style error *\/$/;"	f
+gai_error	proxylab-handout/tiny/csapp.c	/^void gai_error(int code, char *msg) \/* Getaddrinfo-style error *\/$/;"	f
+gen_vals	datalab-handout/btest.c	/^static int gen_vals(int test_vals[], int min, int max, int test_range, int arg)$/;"	f	file:
+get_comp_counter	malloclab-handout/clock.c	/^double get_comp_counter() $/;"	f
+get_counter	malloclab-handout/clock.c	/^double get_counter() $/;"	f
+get_counter	malloclab-handout/clock.c	/^double get_counter()$/;"	f
+get_etime	malloclab-handout/ftimer.c	/^static double get_etime(void) {$/;"	f	file:
+get_exp	datalab-handout/fshow.c	/^unsigned get_exp(unsigned uf)$/;"	f
+get_filetype	proxylab-handout/tiny/tiny.c	/^void get_filetype(char *filename, char *filetype) $/;"	f
+get_frac	datalab-handout/fshow.c	/^unsigned get_frac(unsigned uf)$/;"	f
+get_num_val	datalab-handout/btest.c	/^static int get_num_val(char *sval, unsigned *valp) {$/;"	f	file:
+get_num_val	datalab-handout/fshow.c	/^static int get_num_val(char *sval, unsigned *valp) {$/;"	f	file:
+get_num_val	datalab-handout/ishow.c	/^static int get_num_val(char *sval, unsigned *valp) {$/;"	f	file:
+get_sign	datalab-handout/fshow.c	/^unsigned get_sign(unsigned uf)$/;"	f
+getjobjid	shlab-handout/tsh.c	/^struct job_t *getjobjid(struct job_t *jobs, int jid) $/;"	f
+getjobpid	shlab-handout/tsh.c	/^struct job_t *getjobpid(struct job_t *jobs, pid_t pid) {$/;"	f
+global_rating	datalab-handout/btest.c	/^static int global_rating = 0;$/;"	v	file:
+grade	datalab-handout/btest.c	/^static int grade = 0;$/;"	v	file:
+handler_t	datalab-handout/btest.c	/^typedef void handler_t(int);$/;"	t	file:
+handler_t	proxylab-handout/csapp.h	/^typedef void handler_t(int);$/;"	t
+handler_t	proxylab-handout/tiny/csapp.h	/^typedef void handler_t(int);$/;"	t
+handler_t	shlab-handout/tsh.c	/^typedef void handler_t(int);$/;"	t	file:
+has_arg	datalab-handout/btest.c	/^static int has_arg[3] = {0,0,0};$/;"	v	file:
+has_converged	malloclab-handout/fcyc.c	/^static int has_converged()$/;"	f	file:
+hashname	proxylab-handout/port-for-user.pl	/^sub hashname {$/;"	s
+hi	malloclab-handout/mdriver.c	/^    char *hi;              \/* high payload address *\/$/;"	m	struct:range_t	file:
+howManyBits	datalab-handout/bits.c	/^int howManyBits(int x) {$/;"	f
+id1	malloclab-handout/mm.h	/^    char *id1;      \/* login ID of first member *\/$/;"	m	struct:__anon1
+id2	malloclab-handout/mm.h	/^    char *id2;      \/* login ID of second member *\/$/;"	m	struct:__anon1
+index	malloclab-handout/mdriver.c	/^    int index;                        \/* index for free() to use later *\/$/;"	m	struct:__anon2	file:
+infile	bomb/bomb.c	/^FILE *infile;$/;"	v
+initMatrix	cachelab-handout/cachelab.c	/^void initMatrix(int M, int N, int A[N][M], int B[M][N])$/;"	f
+init_etime	malloclab-handout/ftimer.c	/^static void init_etime(void)$/;"	f	file:
+init_fsecs	malloclab-handout/fsecs.c	/^void init_fsecs(void)$/;"	f
+init_sampler	malloclab-handout/fcyc.c	/^static void init_sampler()$/;"	f	file:
+initjobs	shlab-handout/tsh.c	/^void initjobs(struct job_t *jobs) {$/;"	f
+isAsciiDigit	datalab-handout/bits.c	/^int isAsciiDigit(int x) {$/;"	f
+isLessOrEqual	datalab-handout/bits.c	/^int isLessOrEqual(int x, int y) {$/;"	f
+isTmax	datalab-handout/bits.c	/^int isTmax(int x) {$/;"	f
+is_transpose	cachelab-handout/trans.c	/^int is_transpose(int M, int N, int A[N][M], int B[M][N])$/;"	f
+jid	shlab-handout/tsh.c	/^    int jid;                \/* job ID [1, 2, ...] *\/$/;"	m	struct:job_t	file:
+job_t	shlab-handout/tsh.c	/^struct job_t {              \/* The job struct *\/$/;"	s	file:
+jobs	shlab-handout/tsh.c	/^struct job_t jobs[MAXJOBS]; \/* The job list *\/$/;"	v	typeref:struct:job_t
+kbest	malloclab-handout/fcyc.c	/^static int kbest = K;$/;"	v	file:
+listjobs	shlab-handout/tsh.c	/^void listjobs(struct job_t *jobs) $/;"	f
+lo	malloclab-handout/mdriver.c	/^    char *lo;              \/* low payload address *\/$/;"	m	struct:range_t	file:
+logicalNeg	datalab-handout/bits.c	/^int logicalNeg(int x) {$/;"	f
+main	bomb/bomb.c	/^int main(int argc, char *argv[])$/;"	f
+main	cachelab-handout/csim.c	/^int main()$/;"	f
+main	cachelab-handout/driver.py	/^def main():$/;"	f
+main	cachelab-handout/test-trans.c	/^int main(int argc, char* argv[])$/;"	f
+main	cachelab-handout/tracegen.c	/^int main(int argc, char* argv[]){$/;"	f
+main	datalab-handout/btest.c	/^int main(int argc, char *argv[])$/;"	f
+main	datalab-handout/fshow.c	/^int main(int argc, char *argv[])$/;"	f
+main	datalab-handout/ishow.c	/^int main(int argc, char *argv[])$/;"	f
+main	malloclab-handout/mdriver.c	/^int main(int argc, char **argv)$/;"	f
+main	proxylab-handout/proxy.c	/^int main()$/;"	f
+main	proxylab-handout/tiny/cgi-bin/adder.c	/^int main(void) {$/;"	f
+main	proxylab-handout/tiny/tiny.c	/^int main(int argc, char **argv) $/;"	f
+main	shlab-handout/myint.c	/^int main(int argc, char **argv) $/;"	f
+main	shlab-handout/myspin.c	/^int main(int argc, char **argv) $/;"	f
+main	shlab-handout/mysplit.c	/^int main(int argc, char **argv) $/;"	f
+main	shlab-handout/mystop.c	/^int main(int argc, char **argv) $/;"	f
+main	shlab-handout/tsh.c	/^int main(int argc, char **argv) $/;"	f
+malloc_error	malloclab-handout/mdriver.c	/^void malloc_error(int tracenum, int opnum, char *msg)$/;"	f
+maxjid	shlab-handout/tsh.c	/^int maxjid(struct job_t *jobs) $/;"	f
+maxsamples	malloclab-handout/fcyc.c	/^static int maxsamples = MAXSAMPLES;$/;"	v	file:
+mem_brk	malloclab-handout/memlib.c	/^static char *mem_brk;        \/* points to last byte of heap *\/$/;"	v	file:
+mem_deinit	malloclab-handout/memlib.c	/^void mem_deinit(void)$/;"	f
+mem_heap_hi	malloclab-handout/memlib.c	/^void *mem_heap_hi()$/;"	f
+mem_heap_lo	malloclab-handout/memlib.c	/^void *mem_heap_lo()$/;"	f
+mem_heapsize	malloclab-handout/memlib.c	/^size_t mem_heapsize() $/;"	f
+mem_init	malloclab-handout/memlib.c	/^void mem_init(void)$/;"	f
+mem_max_addr	malloclab-handout/memlib.c	/^static char *mem_max_addr;   \/* largest legal heap address *\/ $/;"	v	file:
+mem_pagesize	malloclab-handout/memlib.c	/^size_t mem_pagesize()$/;"	f
+mem_reset_brk	malloclab-handout/memlib.c	/^void mem_reset_brk()$/;"	f
+mem_sbrk	malloclab-handout/memlib.c	/^void *mem_sbrk(int incr) $/;"	f
+mem_start_brk	malloclab-handout/memlib.c	/^static char *mem_start_brk;  \/* points to first byte of heap *\/$/;"	v	file:
+mhz	malloclab-handout/clock.c	/^double mhz(int verbose)$/;"	f
+mhz_full	malloclab-handout/clock.c	/^double mhz_full(int verbose, int sleeptime)$/;"	f
+misses	cachelab-handout/test-trans.c	/^    int misses;$/;"	m	struct:results	file:
+mm_free	malloclab-handout/mm.c	/^void mm_free(void *ptr)$/;"	f
+mm_init	malloclab-handout/mm.c	/^int mm_init(void)$/;"	f
+mm_malloc	malloclab-handout/mm.c	/^void *mm_malloc(size_t size)$/;"	f
+mm_realloc	malloclab-handout/mm.c	/^void *mm_realloc(void *ptr, size_t size)$/;"	f
+msg	malloclab-handout/mdriver.c	/^char msg[MAXLINE];      \/* for whenever we need to compose an error message *\/$/;"	v
+name	datalab-handout/btest.h	/^    char *name;             \/* String name *\/$/;"	m	struct:__anon7
+name1	malloclab-handout/mm.h	/^    char *name1;    \/* full name of first member *\/$/;"	m	struct:__anon1
+name2	malloclab-handout/mm.h	/^    char *name2;    \/* full name of second member (if any) *\/$/;"	m	struct:__anon1
+negate	datalab-handout/bits.c	/^int negate(int x) {$/;"	f
+next	malloclab-handout/mdriver.c	/^    struct range_t *next;  \/* next list element *\/$/;"	m	struct:range_t	typeref:struct:range_t::range_t	file:
+nextjid	shlab-handout/tsh.c	/^int nextjid = 1;            \/* next job ID to allocate *\/$/;"	v
+num_evictions	cachelab-handout/cachelab.h	/^  unsigned int num_evictions;$/;"	m	struct:trans_func
+num_hits	cachelab-handout/cachelab.h	/^  unsigned int num_hits;$/;"	m	struct:trans_func
+num_ids	malloclab-handout/mdriver.c	/^    int num_ids;         \/* number of alloc\/realloc ids *\/$/;"	m	struct:__anon4	file:
+num_misses	cachelab-handout/cachelab.h	/^  unsigned int num_misses;$/;"	m	struct:trans_func
+num_ops	malloclab-handout/mdriver.c	/^    int num_ops;         \/* number of distinct requests *\/$/;"	m	struct:__anon4	file:
+op_limit	datalab-handout/btest.h	/^    int op_limit;           \/* Max number of ops allowed in solution *\/$/;"	m	struct:__anon7
+open_clientfd	proxylab-handout/csapp.c	/^int open_clientfd(char *hostname, char *port) {$/;"	f
+open_clientfd	proxylab-handout/tiny/csapp.c	/^int open_clientfd(char *hostname, char *port) {$/;"	f
+open_listenfd	proxylab-handout/csapp.c	/^int open_listenfd(char *port) $/;"	f
+open_listenfd	proxylab-handout/tiny/csapp.c	/^int open_listenfd(char *port) $/;"	f
+ops	datalab-handout/btest.h	/^    char *ops;              \/* List of legal operators. Special case: "$" for floating point *\/$/;"	m	struct:__anon7
+ops	malloclab-handout/mdriver.c	/^    double ops;      \/* number of ops (malloc\/free\/realloc) in the trace *\/$/;"	m	struct:__anon6	file:
+ops	malloclab-handout/mdriver.c	/^    traceop_t *ops;      \/* array of requests *\/$/;"	m	struct:__anon4	file:
+optparse	cachelab-handout/driver.py	/^import optparse;$/;"	i
+os	cachelab-handout/driver.py	/^import os;$/;"	i
+ovhd	malloclab-handout/clock.c	/^double ovhd()$/;"	f
+parse_uri	proxylab-handout/tiny/tiny.c	/^int parse_uri(char *uri, char *filename, char *cgiargs) $/;"	f
+parseline	shlab-handout/tsh.c	/^int parseline(const char *cmdline, char **argv) $/;"	f
+pid	shlab-handout/tsh.c	/^    pid_t pid;              \/* job PID *\/$/;"	m	struct:job_t	file:
+pid2jid	shlab-handout/tsh.c	/^int pid2jid(pid_t pid) $/;"	f
+posix_error	proxylab-handout/csapp.c	/^void posix_error(int code, char *msg) \/* Posix-style error *\/$/;"	f
+posix_error	proxylab-handout/tiny/csapp.c	/^void posix_error(int code, char *msg) \/* Posix-style error *\/$/;"	f
+printSummary	cachelab-handout/cachelab.c	/^void printSummary(int hits, int misses, int evictions)$/;"	f
+printresults	malloclab-handout/mdriver.c	/^static void printresults(int n, stats_t *stats) $/;"	f	file:
+prompt	shlab-handout/tsh.c	/^char prompt[] = "tsh> ";    \/* command line prompt (DO NOT CHANGE) *\/$/;"	v
+randMatrix	cachelab-handout/cachelab.c	/^void randMatrix(int M, int N, int A[N][M]) {$/;"	f
+random_val	datalab-handout/btest.c	/^static int random_val(int min, int max)$/;"	f	file:
+range_t	malloclab-handout/mdriver.c	/^typedef struct range_t {$/;"	s	file:
+range_t	malloclab-handout/mdriver.c	/^} range_t;$/;"	t	typeref:struct:range_t	file:
+ranges	malloclab-handout/mdriver.c	/^    range_t *ranges;$/;"	m	struct:__anon5	file:
+rating	datalab-handout/btest.h	/^    int rating;             \/* Problem rating (1 -- 4) *\/$/;"	m	struct:__anon7
+re	cachelab-handout/driver.py	/^import re;$/;"	i
+read_requesthdrs	proxylab-handout/tiny/tiny.c	/^void read_requesthdrs(rio_t *rp) $/;"	f
+read_trace	malloclab-handout/mdriver.c	/^static trace_t *read_trace(char *tracedir, char *filename)$/;"	f	file:
+registerFunctions	cachelab-handout/trans.c	/^void registerFunctions()$/;"	f
+registerTransFunction	cachelab-handout/cachelab.c	/^void registerTransFunction(void (*trans)(int M, int N, int[N][M], int[M][N]), $/;"	f
+remove_range	malloclab-handout/mdriver.c	/^static void remove_range(range_t **ranges, char *lo)$/;"	f	file:
+results	cachelab-handout/test-trans.c	/^static struct results results = {-1, 0, INT_MAX};$/;"	v	typeref:struct:results	file:
+results	cachelab-handout/test-trans.c	/^struct results {$/;"	s	file:
+rio_buf	proxylab-handout/csapp.h	/^    char rio_buf[RIO_BUFSIZE]; \/* Internal buffer *\/$/;"	m	struct:__anon9
+rio_buf	proxylab-handout/tiny/csapp.h	/^    char rio_buf[RIO_BUFSIZE]; \/* Internal buffer *\/$/;"	m	struct:__anon8
+rio_bufptr	proxylab-handout/csapp.h	/^    char *rio_bufptr;          \/* Next unread byte in internal buf *\/$/;"	m	struct:__anon9
+rio_bufptr	proxylab-handout/tiny/csapp.h	/^    char *rio_bufptr;          \/* Next unread byte in internal buf *\/$/;"	m	struct:__anon8
+rio_cnt	proxylab-handout/csapp.h	/^    int rio_cnt;               \/* Unread bytes in internal buf *\/$/;"	m	struct:__anon9
+rio_cnt	proxylab-handout/tiny/csapp.h	/^    int rio_cnt;               \/* Unread bytes in internal buf *\/$/;"	m	struct:__anon8
+rio_fd	proxylab-handout/csapp.h	/^    int rio_fd;                \/* Descriptor for this internal buf *\/$/;"	m	struct:__anon9
+rio_fd	proxylab-handout/tiny/csapp.h	/^    int rio_fd;                \/* Descriptor for this internal buf *\/$/;"	m	struct:__anon8
+rio_read	proxylab-handout/csapp.c	/^static ssize_t rio_read(rio_t *rp, char *usrbuf, size_t n)$/;"	f	file:
+rio_read	proxylab-handout/tiny/csapp.c	/^static ssize_t rio_read(rio_t *rp, char *usrbuf, size_t n)$/;"	f	file:
+rio_readinitb	proxylab-handout/csapp.c	/^void rio_readinitb(rio_t *rp, int fd) $/;"	f
+rio_readinitb	proxylab-handout/tiny/csapp.c	/^void rio_readinitb(rio_t *rp, int fd) $/;"	f
+rio_readlineb	proxylab-handout/csapp.c	/^ssize_t rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f
+rio_readlineb	proxylab-handout/tiny/csapp.c	/^ssize_t rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f
+rio_readn	proxylab-handout/csapp.c	/^ssize_t rio_readn(int fd, void *usrbuf, size_t n) $/;"	f
+rio_readn	proxylab-handout/tiny/csapp.c	/^ssize_t rio_readn(int fd, void *usrbuf, size_t n) $/;"	f
+rio_readnb	proxylab-handout/csapp.c	/^ssize_t rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f
+rio_readnb	proxylab-handout/tiny/csapp.c	/^ssize_t rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f
+rio_t	proxylab-handout/csapp.h	/^} rio_t;$/;"	t	typeref:struct:__anon9
+rio_t	proxylab-handout/tiny/csapp.h	/^} rio_t;$/;"	t	typeref:struct:__anon8
+rio_writen	proxylab-handout/csapp.c	/^ssize_t rio_writen(int fd, void *usrbuf, size_t n) $/;"	f
+rio_writen	proxylab-handout/tiny/csapp.c	/^ssize_t rio_writen(int fd, void *usrbuf, size_t n) $/;"	f
+run_tests	datalab-handout/btest.c	/^static int run_tests() $/;"	f	file:
+samplecount	malloclab-handout/fcyc.c	/^static int samplecount = 0;$/;"	v	file:
+samples	malloclab-handout/fcyc.c	/^static double *samples = NULL;$/;"	v	file:
+sbuf	shlab-handout/tsh.c	/^char sbuf[MAXLINE];         \/* for composing sprintf messages *\/$/;"	v
+secs	malloclab-handout/mdriver.c	/^    double secs;     \/* number of secs needed to run the trace *\/$/;"	m	struct:__anon6	file:
+serve_dynamic	proxylab-handout/tiny/tiny.c	/^void serve_dynamic(int fd, char *filename, char *cgiargs) $/;"	f
+serve_static	proxylab-handout/tiny/tiny.c	/^void serve_static(int fd, char *filename, int filesize)$/;"	f
+serversocket	proxylab-handout/nop-server.py	/^serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+set_fcyc_cache_block	malloclab-handout/fcyc.c	/^void set_fcyc_cache_block(int bytes) {$/;"	f
+set_fcyc_cache_size	malloclab-handout/fcyc.c	/^void set_fcyc_cache_size(int bytes)$/;"	f
+set_fcyc_clear_cache	malloclab-handout/fcyc.c	/^void set_fcyc_clear_cache(int clear)$/;"	f
+set_fcyc_compensate	malloclab-handout/fcyc.c	/^void set_fcyc_compensate(int compensate_arg)$/;"	f
+set_fcyc_epsilon	malloclab-handout/fcyc.c	/^void set_fcyc_epsilon(double epsilon_arg)$/;"	f
+set_fcyc_k	malloclab-handout/fcyc.c	/^void set_fcyc_k(int k)$/;"	f
+set_fcyc_maxsamples	malloclab-handout/fcyc.c	/^void set_fcyc_maxsamples(int maxsamples_arg)$/;"	f
+show_float	datalab-handout/fshow.c	/^void show_float(unsigned uf)$/;"	f
+show_int	datalab-handout/ishow.c	/^void show_int(unsigned uf)$/;"	f
+sigalrm_handler	cachelab-handout/test-trans.c	/^void sigalrm_handler(int signum){$/;"	f
+sigchld_handler	shlab-handout/tsh.c	/^void sigchld_handler(int sig) $/;"	f
+sigint_handler	shlab-handout/tsh.c	/^void sigint_handler(int sig) $/;"	f
+sigquit_handler	shlab-handout/tsh.c	/^void sigquit_handler(int sig) $/;"	f
+sigsegv_handler	cachelab-handout/test-trans.c	/^void sigsegv_handler(int signum){$/;"	f
+sigtstp_handler	shlab-handout/tsh.c	/^void sigtstp_handler(int sig) $/;"	f
+sink	malloclab-handout/fcyc.c	/^static volatile int sink = 0;$/;"	v	file:
+sio_error	proxylab-handout/csapp.c	/^void sio_error(char s[]) \/* Put error message and exit *\/$/;"	f
+sio_error	proxylab-handout/tiny/csapp.c	/^void sio_error(char s[]) \/* Put error message and exit *\/$/;"	f
+sio_ltoa	proxylab-handout/csapp.c	/^static void sio_ltoa(long v, char s[], int b) $/;"	f	file:
+sio_ltoa	proxylab-handout/tiny/csapp.c	/^static void sio_ltoa(long v, char s[], int b) $/;"	f	file:
+sio_putl	proxylab-handout/csapp.c	/^ssize_t sio_putl(long v) \/* Put long *\/$/;"	f
+sio_putl	proxylab-handout/tiny/csapp.c	/^ssize_t sio_putl(long v) \/* Put long *\/$/;"	f
+sio_puts	proxylab-handout/csapp.c	/^ssize_t sio_puts(char s[]) \/* Put string *\/$/;"	f
+sio_puts	proxylab-handout/tiny/csapp.c	/^ssize_t sio_puts(char s[]) \/* Put string *\/$/;"	f
+sio_reverse	proxylab-handout/csapp.c	/^static void sio_reverse(char s[])$/;"	f	file:
+sio_reverse	proxylab-handout/tiny/csapp.c	/^static void sio_reverse(char s[])$/;"	f	file:
+sio_strlen	proxylab-handout/csapp.c	/^static size_t sio_strlen(char s[])$/;"	f	file:
+sio_strlen	proxylab-handout/tiny/csapp.c	/^static size_t sio_strlen(char s[])$/;"	f	file:
+size	malloclab-handout/mdriver.c	/^    int size;                         \/* byte size of alloc\/realloc request *\/$/;"	m	struct:__anon2	file:
+socket	proxylab-handout/nop-server.py	/^import socket$/;"	i
+solution_funct	datalab-handout/btest.h	/^    funct_t solution_funct; \/* Function *\/$/;"	m	struct:__anon7
+speed_t	malloclab-handout/mdriver.c	/^} speed_t;$/;"	t	typeref:struct:__anon5	file:
+start_comp_counter	malloclab-handout/clock.c	/^void start_comp_counter() $/;"	f
+start_counter	malloclab-handout/clock.c	/^void start_counter()$/;"	f
+start_tick	malloclab-handout/clock.c	/^static clock_t start_tick = 0;$/;"	v	file:
+state	shlab-handout/tsh.c	/^    int state;              \/* UNDEF, BG, FG, or ST *\/$/;"	m	struct:job_t	file:
+stats_t	malloclab-handout/mdriver.c	/^} stats_t; $/;"	t	typeref:struct:__anon6	file:
+submitr	datalab-handout/Driverlib.pm	/^sub submitr ($$$$$$) {$/;"	s
+subprocess	cachelab-handout/driver.py	/^import subprocess;$/;"	i
+sugg_heapsize	malloclab-handout/mdriver.c	/^    int sugg_heapsize;   \/* suggested heap size (unused) *\/$/;"	m	struct:__anon4	file:
+sys	cachelab-handout/driver.py	/^import sys;$/;"	i
+sys	proxylab-handout/nop-server.py	/^import sys$/;"	i
+team	malloclab-handout/mm.c	/^team_t team = {$/;"	v
+team_t	malloclab-handout/mm.h	/^} team_t;$/;"	t	typeref:struct:__anon1
+teamname	malloclab-handout/mm.h	/^    char *teamname; \/* ID1+ID2 or ID1 *\/$/;"	m	struct:__anon1
+test_0_arg	datalab-handout/btest.c	/^static int test_0_arg(funct_t f, funct_t ft, char *name)$/;"	f	file:
+test_1_arg	datalab-handout/btest.c	/^static int test_1_arg(funct_t f, funct_t ft, int arg1, char *name)$/;"	f	file:
+test_2_arg	datalab-handout/btest.c	/^static int test_2_arg(funct_t f, funct_t ft, int arg1, int arg2, char *name)$/;"	f	file:
+test_3_arg	datalab-handout/btest.c	/^static int test_3_arg(funct_t f, funct_t ft, $/;"	f	file:
+test_allOddBits	datalab-handout/tests.c	/^int test_allOddBits(int x) {$/;"	f
+test_bitXor	datalab-handout/tests.c	/^int test_bitXor(int x, int y)$/;"	f
+test_conditional	datalab-handout/tests.c	/^int test_conditional(int x, int y, int z)$/;"	f
+test_floatFloat2Int	datalab-handout/tests.c	/^int test_floatFloat2Int(unsigned uf) {$/;"	f
+test_floatPower2	datalab-handout/tests.c	/^unsigned test_floatPower2(int x) {$/;"	f
+test_floatScale2	datalab-handout/tests.c	/^unsigned test_floatScale2(unsigned uf) {$/;"	f
+test_fname	datalab-handout/btest.c	/^static char* test_fname = NULL;  $/;"	v	file:
+test_funct	datalab-handout/btest.h	/^    funct_t test_funct;     \/* Test function *\/$/;"	m	struct:__anon7
+test_funct	malloclab-handout/fcyc.h	/^typedef void (*test_funct)(void *);$/;"	t
+test_function	datalab-handout/btest.c	/^static int test_function(test_ptr t) {$/;"	f	file:
+test_howManyBits	datalab-handout/tests.c	/^int test_howManyBits(int x) {$/;"	f
+test_isAsciiDigit	datalab-handout/tests.c	/^int test_isAsciiDigit(int x) {$/;"	f
+test_isLessOrEqual	datalab-handout/tests.c	/^int test_isLessOrEqual(int x, int y)$/;"	f
+test_isTmax	datalab-handout/tests.c	/^int test_isTmax(int x) {$/;"	f
+test_logicalNeg	datalab-handout/tests.c	/^int test_logicalNeg(int x)$/;"	f
+test_negate	datalab-handout/tests.c	/^int test_negate(int x) {$/;"	f
+test_ptr	datalab-handout/btest.h	/^} test_rec, *test_ptr;$/;"	t	typeref:struct:__anon7
+test_rec	datalab-handout/btest.h	/^} test_rec, *test_ptr;$/;"	t	typeref:struct:__anon7
+test_set	datalab-handout/decl.c	/^test_rec test_set[] = {$/;"	v
+test_tmin	datalab-handout/tests.c	/^int test_tmin(void) {$/;"	f
+timeout_handler	datalab-handout/btest.c	/^void timeout_handler(int sig) {$/;"	f
+timeout_limit	datalab-handout/btest.c	/^static int timeout_limit = TIMEOUT_LIMIT; \/* -T *\/$/;"	v	file:
+tmin	datalab-handout/bits.c	/^int tmin(void) {$/;"	f
+trace	malloclab-handout/mdriver.c	/^    trace_t *trace;  $/;"	m	struct:__anon5	file:
+trace_t	malloclab-handout/mdriver.c	/^} trace_t;$/;"	t	typeref:struct:__anon4	file:
+tracedir	malloclab-handout/mdriver.c	/^static char tracedir[MAXLINE] = TRACEDIR;$/;"	v	file:
+traceop_t	malloclab-handout/mdriver.c	/^} traceop_t;$/;"	t	typeref:struct:__anon2	file:
+trans	cachelab-handout/trans.c	/^void trans(int M, int N, int A[N][M], int B[M][N])$/;"	f
+trans_desc	cachelab-handout/trans.c	/^char trans_desc[] = "Simple row-wise scan transpose";$/;"	v
+trans_func	cachelab-handout/cachelab.h	/^typedef struct trans_func{$/;"	s
+trans_func_t	cachelab-handout/cachelab.h	/^} trans_func_t;$/;"	t	typeref:struct:trans_func
+transpose_submit	cachelab-handout/trans.c	/^void transpose_submit(int M, int N, int A[N][M], int B[M][N])$/;"	f
+transpose_submit_desc	cachelab-handout/trans.c	/^char transpose_submit_desc[] = "Transpose submission";$/;"	v
+type	malloclab-handout/mdriver.c	/^    enum {ALLOC, FREE, REALLOC} type; \/* type of request *\/$/;"	m	struct:__anon2	typeref:enum:__anon2::__anon3	file:
+u2f	datalab-handout/fshow.c	/^static float u2f(unsigned u)$/;"	f	file:
+u2f	datalab-handout/tests.c	/^float u2f(unsigned u) {$/;"	f
+unix_error	malloclab-handout/mdriver.c	/^void unix_error(char *msg) $/;"	f
+unix_error	proxylab-handout/csapp.c	/^void unix_error(char *msg) \/* Unix-style error *\/$/;"	f
+unix_error	proxylab-handout/tiny/csapp.c	/^void unix_error(char *msg) \/* Unix-style error *\/$/;"	f
+unix_error	shlab-handout/tsh.c	/^void unix_error(char *msg)$/;"	f
+url_encode	datalab-handout/Driverlib.pm	/^sub url_encode ($) {$/;"	s
+usage	cachelab-handout/test-trans.c	/^void usage(char *argv[]){$/;"	f
+usage	datalab-handout/btest.c	/^static void usage(char *cmd) {$/;"	f	file:
+usage	datalab-handout/driver.pl	/^sub usage {$/;"	s
+usage	datalab-handout/fshow.c	/^void usage(char *fname) {$/;"	f
+usage	datalab-handout/ishow.c	/^void usage(char *fname) {$/;"	f
+usage	malloclab-handout/mdriver.c	/^static void usage(void) $/;"	f	file:
+usage	shlab-handout/sdriver.pl	/^sub usage $/;"	s
+usage	shlab-handout/tsh.c	/^void usage(void) $/;"	f
+user_agent_hdr	proxylab-handout/proxy.c	/^static const char *user_agent_hdr = "User-Agent: Mozilla\/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko\/20120305 Firefox\/10.0.3\\r\\n";$/;"	v	file:
+util	malloclab-handout/mdriver.c	/^    double util;     \/* space utilization for this trace (always 0 for libc) *\/$/;"	m	struct:__anon6	file:
+valid	malloclab-handout/mdriver.c	/^    int valid;       \/* was the trace processed correctly by the allocator? *\/$/;"	m	struct:__anon6	file:
+validate	cachelab-handout/tracegen.c	/^int validate(int fn,int M, int N, int A[N][M], int B[M][N]) {$/;"	f
+values	malloclab-handout/fcyc.c	/^static double *values = NULL;$/;"	v	file:
+verbose	malloclab-handout/mdriver.c	/^int verbose = 0;        \/* global flag for verbose output *\/$/;"	v
+verbose	shlab-handout/tsh.c	/^int verbose = 0;            \/* if true, print additional output *\/$/;"	v
+wait_for_port_use	proxylab-handout/driver.sh	/^function wait_for_port_use() {$/;"	f
+waitfg	shlab-handout/tsh.c	/^void waitfg(pid_t pid)$/;"	f
+weight	malloclab-handout/mdriver.c	/^    int weight;          \/* weight for this trace (unused) *\/$/;"	m	struct:__anon4	file:
